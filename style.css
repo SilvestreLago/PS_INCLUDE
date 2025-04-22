@@ -10,6 +10,7 @@ body, html {
     overflow: hidden;
     font-family: "Rubik", sans-serif;
 }
+
 #intro {
     min-height: 100vh;
     display: flex;
@@ -37,12 +38,12 @@ body, html {
 }
 
 .pato {
-position: fixed;
-bottom: 10px;
-left: 0;
-width: 40px;
-height: auto;
-animation: andar 20s linear infinite;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 40px;
+    height: auto;
+    animation: andar 20s linear infinite;
 }
 
 @keyframes andar{
@@ -68,7 +69,7 @@ animation: andar 20s linear infinite;
     flex-shrink: 0;
 }
 
-.biografia p {
+.biografia p, p{
     text-align: justify;
     max-width: 700px;
 }
@@ -151,7 +152,6 @@ section>h1{
     padding-top: 30px;
 }
 .intro2 {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,7 +192,12 @@ section>h1{
         width: 320px;
         height: 240px;
     }
-    .intro2 {
-        margin-top: -80px;
+    #intro h2{
+        font-size: 23px;
     }
+}
+
+footer{
+    background-color: black;
+    margin: 10%;
 }
