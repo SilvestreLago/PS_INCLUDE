@@ -2,6 +2,8 @@
 
 Este repositório é dedicado ao processo seletivo da Include Jr.
 
+- <a href="https://silvestrelago.github.io/PS_INCLUDE/" target="_blank">Link para o site </a>
+
 ## Sobre
 
 Este repositório contém o código e os recursos desenvolvidos como parte do processo seletivo para a empresa Include Jr. O objetivo é demonstrar habilidades técnicas e a capacidade de resolver problemas de forma eficiente.
